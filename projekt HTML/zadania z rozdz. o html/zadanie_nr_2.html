@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name = "description" content = "Badanie form spędzania czasu wolnego"/>
+	<meta name = "author" content = "Ankiety XYZ sp.z o.o."/>
+	<meta name = "keywords" content="ankieta, badanie, opinii"/>
+	<meta name = "robots" content = "noindex, nofollow" />
+	<title>zadanie2</title>
+</head>
+<body>
+	<h1>Badanie form spędzania czasu wolnego</h1>
+	<h2>Pytania metryczkowe</h2>
+		<form method="POST">
+			<div>
+				<label for = "p_wiek"><i>Podaj swój wiek</i></label>
+				<input type ="number" name = "wiek" id = "p_wiek"/>
+			</div>
+			<br />
+			<div>
+				<i>Wybierz płeć</i>
+				<input type="radio" id="men" name = "gender"/>
+				<label for = "men">Mężczyzna</label>
+			
+			
+				<input type="radio" id="women" name = "gender"/>
+				<label for = "women">Kobieta</label>
+			</div>
+			<br />
+			<div>
+				<label for = "city_size"><i>Wielkość miejscowości zamieszkania</i></label>
+				<input type= "number" name = "wielkosc_miejscowosci" id = "city_size" /> osób
+			</div>
+			
+		</form>
+	<h2>Pytania o formy spędzania wolnego czasu</h2>
+		<form>
+			<div>
+			<label for = "wolnyCzas"><i>ile czasu wolnego posiadasz dziennie?</i></label>
+			<input type = "number" max ="24" id = "wolnyCzas"/> godzin/y
+			</div>
+			<br />
+			<div>
+			<label for = "ileKsiazek"><i>ile ksiązek przeczytałes w ciagu ostatniego roku?</i></label>
+			<input type = "number" id= "ileKsiazek"/></div>
+			<div>
+				<p><i>W jaki sposób spędzasz czas wolny? (wybierz wszystkie pasujące odpowiedzi)</i></p>
+
+				<p><input type="checkbox" id="pilka_nozna" />
+				<label for="pilka_nozna">piłka nożna</label>
+				</p>
+				<p><input type="checkbox" id="koszykowka" />
+				<label for="koszykowka">koszykówka </label>
+				</p>
+				<p><input type="checkbox" id="spanie" />
+				<label for="spanie">spanie</label>
+				</p>
+				<p><input type="checkbox" id="rower" />
+				<label for="rower">jazda na rowerze</label>
+				</p>
+				<p><input type="checkbox" id="inne" />
+				<label for="inne">inne</label>
+				</p>
+				
+			</div>
+
+			<div>
+				<label for = "zainteresowania"><i>ile godzin tygodniowo poświęcasz na rozwój zainteresowań?</i></label>
+				<input type = "number" id = "zainteresowania"/> godzin(y)
+			</div>
+			<br />
+			<div>
+				<label for = "aktywnosc"><i>ile godzin tygodniowo poświęcasz na aktywność fizyczną?</i></label>
+				<input type = "number" id = "aktywnosc"/> godzin(y)
+			</div>
+			<br />
+			<div>
+				<label for = "spotkania"><i>ile godzin tygodniowo poświęcasz na spotkania ze znajomymi?</i></label>
+				<input type = "number" id = "spotkania"/> godzin(y)
+			</div>
+			<br />
+			<div>
+				<label for = "z_kim_spedzasz"><i>Z kim zazwyczaj spędzasz wolny czas?(np.z rodziną/ze znajomymi/sam(a))</i></label>
+				<input type = "text" id= "z_kim_spedzasz"/>
+			</div>
+			<br />
+			<div>
+				<i>W skali 5 stopniowej określ czy często nudzisz się w czasie wolnym?</i>
+				<select name="skala_1">
+					<option value="1" label="Bardzo często" />
+					<option value="2" label="Często" />
+					<option value="3" label="umiarkowanie" />
+					<option value="4" label="rzadko" />
+					<option value="4" label="nigdy się nie nudzę" />
+				</select>
+			</div>
+			<br />
+			<div>
+				<i>W skali 5 stopniowej określ czy Twoja miejscowość posiada wystarczająco dużo atrakcji, odpowiednich do realizacji zainteresowań?</i>
+				<select name="skala_2">
+					<option value="1" label="nie ma ich wcale " />
+					<option value="2" label="posiada bardzo mało" />
+					<option value="3" label="tak średnio bym powiedział" />
+					<option value="4" label="ma ale nie są zróżnicowane" />
+					<option value="4" label="ma dużo różnych atrakcji" />
+				</select>
+			</div>
+		</form>
+
+
+</body>
+</html>
