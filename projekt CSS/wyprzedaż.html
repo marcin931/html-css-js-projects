@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wyprzedaz</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="nav">
+            <a class="logo" href="strona_glowna.html">
+                <img src="img/santacc.png">
+            </a>
+
+            <ul class="navbar">
+                <li><a href="rowery.html">rowery</a></li>
+                <li><a href="akcesoria.html">akcesoria</a></li>
+                <li><a href="wyprzedaż.html">wyprzedaż</a></li>
+            </ul>
+        </div>
+        <div id="sidebar-left">
+            <form>
+
+                <div id="price-range-form">
+                    <h1>Cena(zł)</h1>
+                    <div id="price-min-box">
+                        <label for="price-min">Od</label>
+                        <input type="number" min="0" max="100000" step="1" value="" id="price-min">
+                    </div>
+                    <div id="price-max-box">
+                        <label for="price-max">Do
+                            <input type="number" min="0" max="100000" step="1" value="" id="price-max">
+                        </label>
+                    </div>
+                </div>
+                <br />
+
+
+                <div id="category-form">
+                    <h1>Typ roweru</h1>
+                    <label for="typ">DH
+                        <input type="checkbox" name="typ">
+                    </label>
+
+                    <label for="typ">ENDURO
+                        <input type="checkbox" name="typ">
+                    </label>
+
+                    <label for="typ">ALL MOUNTAIN/TRAIL
+                        <input type="checkbox" name="typ">
+                    </label>
+
+                    <label for="typ">XC/MARATHON
+                        <input type="checkbox" name="typ">
+                    </label>
+
+                    <label for="typ">GRAVEL/ROAD
+                        <input type="checkbox" name="typ">
+                    </label>
+                    <br />
+                    <br />
+
+                </div>
+                <input type="submit" value="zastosuj">
+            </form>
+        </div>
+
+
+        <div class="content-box">
+            <div class="flexbox-content">
+                <a class="product-box-link" href="">
+                    <img src="img/wyprz5.jpg">
+                    <div class="product-box-text-container">
+                        Rock Shox Sektor RL 27,5" Amortyzator rowerowy</div>
+                    <div class="price-box">
+                        <div class="outlet">
+                            <del>
+                                <span class="amount">2215 zł</span>
+                            </del>
+                            <ins>
+                                <span class="amount">1341 zł</span>
+                            </ins>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a class="product-box-link" href="">
+                    <img src="img/wyprz4.jpg">
+                    <div class="product-box-text-container">
+                        SixSixOne 661 Raji Rękawiczki rowerowe białe</div>
+                    <div class="price-box">
+                        <div class="outlet">
+                            <del>
+                                <span class="amount">6650 zł</span>
+                            </del>
+                            <ins>
+                                <span class="amount">4650 zł</span>
+                            </ins>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="product-box-link" href="">
+                    <img src="img/wyprz3.jpg">
+                    <div class="product-box-text-container">
+                        XLC GR S31 Chwyty rowerowe silikonowe 130mm niebieskie</div>
+                    <div class="price-box">
+                        <div class="outlet">
+                            <del>
+                                <span class="amount">89.90 zł</span>
+                            </del>
+                            <ins>
+                                <span class="amount">57.90 zł</span>
+                            </ins>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="product-box-link" href="">
+                    <img src="img/wyprz1.jpg">
+                    <div class="product-box-text-container">
+                        Opona rowerowa X-Country Schwalbe Tough Tom
+                    </div>
+                    <div class="price-box">
+                        <div class="outlet">
+                            <del>
+                                <span class="amount">60 zł</span>
+                            </del>
+                            <ins>
+                                <span class="amount">30 zł</span>
+                            </ins>
+                        </div>
+                    </div>
+                </a>
+                <a class="product-box-link" href="">
+                    <img src="img/wyprz2.jpg">
+                    <div class="product-box-text-container">
+                        XLC GR S31 Chwyty rowerowe silikonowe 130mm niebieskie
+                    </div>
+                    <div class="price-box">
+                        <div class="outlet">
+                            <del>
+                                <span class="amount">79.90 zł</span>
+                            </del>
+                            <ins>
+                                <span class="amount">38.50 zł</span>
+                            </ins>
+                        </div>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+        <footer id="footer">
+            Nazwa Firmy, Miejscowość, 12-345 Lokalizacja, Nr tel: (+48) 123-456-789
+        </footer>
+    </div>
+
+</body>
+
+</html>
